@@ -51,15 +51,15 @@ namespace ConsoleApplication1
         Console.WriteLine("{0}", b<<2);
         Console.ReadKey();
         }
-        static T Sum<T>(List<T> nums)
-            where T : struct
-        {
-            T sum = default(T);
-            foreach (var num in nums)
-            {
-                sum += num;
-            }
-            return sum
-        }
+        //static T Sum<T>(List<T> nums)
+        //    where T : struct
+        //{
+        //    T sum = default(T);
+        //    foreach (var num in nums)
+        //    {
+        //        sum += num;
+        //    }
+        //    return sum
+        //}
     }
 }
