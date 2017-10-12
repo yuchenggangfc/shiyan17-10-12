@@ -44,7 +44,7 @@ namespace ConsoleApplication1
                 Console.WriteLine("haha");
             }
 
-            
+            Console.WriteLine("213123123");  
         Console.WriteLine("{0},{1},{2}",b,d,c);
         Console.WriteLine("hello world");
         Console.WriteLine("area: {0}", area);
